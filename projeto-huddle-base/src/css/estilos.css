@@ -1,0 +1,108 @@
+
+body{
+    background: url(../images/bg-desktop.svg);
+    background-color: var(--hard);
+    font-family: "Poppins", sans-serif;
+    margin-left: 50px;
+    
+
+}
+
+.header-container{
+    margin: 35px;
+    
+}
+
+.container{
+    color: white;
+    display: flex;
+    
+   
+}
+
+.container .main-container{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: justify;
+    width: 1500px;
+     
+}
+
+.container .main-container .main-container-info{   
+    font-size: 20px;
+    text-align: start;
+    padding: 60px;
+    font-weight: 200;
+    
+}
+
+.container .main-container .main-container-info h2{
+    padding-bottom: 25px;
+    font-size: 40px;
+    
+}
+
+.container .main-container .main-container-info p{
+    padding-bottom: 30px;
+   
+}
+
+.container .main-container .main-container-btn{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;       
+    background-color: white;
+    
+    
+    
+}
+
+.container .main-container .main-container-btn:hover{
+    background-color: var(--ligth);
+    color: white;
+    font-weight: 500;
+  
+}
+
+.container .main-container .main-container-btn a:hover{
+    /* background-color: var(--ligth); */
+    color: white;
+    font-weight: 500;
+    
+}
+
+.footer{
+    display: flex;
+    padding: 50px;
+    flex-direction: row-reverse;
+    padding-right: 300px;
+              
+}
+
+.footer .social{
+   
+
+}
+.footer .social i{
+   font-size: 30px;
+   border: solid white;
+   border-radius: 50%;
+   color: white;
+   margin: 07px;
+   padding: 10px;
+   transition: 0.3s;
+   
+}
+
+.footer .social i:hover{
+    color: var(--ligth);
+}
+
+
+
+
